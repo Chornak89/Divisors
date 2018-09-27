@@ -1,0 +1,8 @@
+user_num = int(input('Give me a number, I will return all divisibles of that number.\n>>>'))
+divisors = []
+
+for i in range(0, user_num + 1):
+    if i % user_num == 0:
+        divisors.append(i)
+
+print(divisors)
